@@ -26,3 +26,19 @@ elif x>50 and x<=99:
 else:
     print("40% discount")
 
+“”“
+num = int(input('Number of packages: '))
+price = 49.99
+
+# Check discount intervals
+if num < 10:
+    print(price * num)
+elif 10 <= num <= 19:
+    print('%.2f' % (price * num * 0.9))
+elif 20 <= num <= 49:
+    print('%.2f' % (price * num * 0.8))
+elif 50 <= num <= 99:
+    print('%.2f' % (price * num * 0.7))
+else:
+    print('%.2f' % (price * num * 0.6))
+"""
